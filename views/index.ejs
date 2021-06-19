@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSV Parser</title>
+    <link rel="stylesheet" type="text/css" href="/app.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>CSV Parser</h2>
+      <hr />
+    </nav>
+
+    <div class="container">
+      <h5>Upload your csv file here</h5>
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        <div class="file">
+          <input class="btn1" type="file" name="file" />
+        </div>
+        <div class="upload">
+          <button class="btn2" type="submit">Upload</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
