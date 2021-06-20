@@ -8,7 +8,7 @@
 
 1.  Clone the repo
     ```
-    https://gitlab.com/abz-von-team/csv-parser-project.git
+    https://github.com/AbegaM/csv-parser-project.git
     ```
 2.  Install NPM packages
     ```
